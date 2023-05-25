@@ -50,5 +50,9 @@ Vous allez compléter env.txt en renseignant votre token, le prefix de votre bot
 Si vous avez une erreur __lisait bien le message d'erreur__ et **chercher sur internet** la solution si vous ne l'avez pas trouvé
 et si vous remarquez une erreur dans le code fournis vous pouvez me le dire en me contactant sur discord Azer_X2#8235
 
+### License
+
+Copyright © 2023, [Azer X2](https://github.com/AzerX2).
+Sous la license : [MIT License](LICENSE).
 
 
