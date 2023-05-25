@@ -1,3 +1,9 @@
+/**
+ * Template Créé par Azer_X2#8235
+ * github: https://github.com/AzerX2
+ * créditez moi si vous utilisez ce template
+ */
+
 const {
     Client,
     Collection,
@@ -26,11 +32,11 @@ const {
 } = require('discord-api-types/v9');
 
 // Commandes
-const commandFiles = fs.readdirSync('./SlashCommandes').filter(file => file.endsWith('.js'));
 const commands2 = [];
 client.commands = new Collection();
 
 // Slash commands
+const commandFiles = fs.readdirSync('./SlashCommandes').filter(file => file.endsWith('.js'));
 client.commands2 = new Collection();
 for (const file of commandFiles) {
     const command = require(`./SlashCommandes/${file}`);
