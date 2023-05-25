@@ -1,5 +1,4 @@
 /**
- * 
  * @param {*} client 
  * @param {*} guildMember 
  * 
