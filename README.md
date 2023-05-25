@@ -4,34 +4,36 @@ Template pour faire un bot discord avec discord.js v13 et MongoDB
 ## Première chose à faire 
 Vous allez compléter env.txt en renseignant votre token, le prefix de votre bot et l'adresse de votre base de donnée MongoDB
 
-## Comment Ajouter des commandes ?
+\section Ajout
+
+\subsection Ajout de commandes
 
 Créé un fichier dans le dossier Commandes par exemple ping (ping.js comme nom)
 puis mettais le code de la commande dans le fichier en respectant la forme donnée en exemple dans le fichier ping.js
 
-## Comment Ajouter des événements ?
+\subsection Ajout d'événements
 
 Créé un fichier dans le dossier Events par exemple ready (ready.js comme nom)
 puis mettais le code de l'événement dans le fichier en respectant la forme donnée en exemple dans le fichier ready.js
 la plupart des évenements sont dans le dossier Events mais vous pouvez en ajouter d'autres
 vous pouvez ensuite modifié le code pour lui faire faire ce que vous souhaitez
 
-## Comment Ajouter des interactions ?
+\subsection Ajout d'interactions
 
 Créé un fichier dans le dossier Interactions par exemple ping (ping.js comme nom)
 puis mettais le code de l'interaction dans le fichier en respectant la forme donnée en exemple dans le fichier ping.js
 
-## Comment Ajouter des modals ?
+\subsection Ajout de boutons
 
 Vous avez un exemple de modal dans le fichier modal.js dans le dossier Interactions
 vous pouvez ensuite modifié le code pour lui faire faire ce que vous souhaitez
 
-## Comment Ajouter des boutons ?
+\subsection Ajout de boutons
 
 Vous avez un exemple de bouton dans le fichier button.js dans le dossier Interactions
 Et même chose c'est un exemple que vous pouvez modifier à votre guise
 
-## Comment fonctionne MongoDB ?
+\section Utilisation de la base de donnée
 
 Vous avez un exemple de code dans le fichier test.js dans le dossier Commandes
 qui vous explique comment update, delete, add, get des données dans votre base de donnée
