@@ -24,26 +24,10 @@ const mongoose = require('mongoose');
 
 mongoose.connect(process.env.MONGO_URL, { useNewUrlParser: true, useUnifiedTopology: true }).then(console.log('Connectée à Mongodb.'));
 const fs = require('fs');
-const {
-    REST
-} = require('@discordjs/rest');
-const {
-    Routes
-} = require('discord-api-types/v9');
 
 // Commandes
 const commands2 = [];
 client.commands = new Collection();
-
-// Slash commands
-const commandFiles = fs.readdirSync('./SlashCommandes').filter(file => file.endsWith('.js'));
-client.commands2 = new Collection();
-for (const file of commandFiles) {
-    const command = require(`./SlashCommandes/${file}`);
-    commands2.push(command.data.toJSON());
-    client.commands2.set(command.data.name, command);
-}
-
 
 // Gestion d'erreur
 process.on('unhandledRejection', error => {
