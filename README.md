@@ -3,6 +3,7 @@ Template pour faire un bot discord avec discord.js v13 et MongoDB
 
 ## Première chose à faire 
 Vous allez compléter env.txt en renseignant votre token, le prefix de votre bot et l'adresse de votre base de donnée MongoDB  
+et le renommer en .env
 
 ## Ajout
 
