@@ -49,7 +49,7 @@ et le renommer en .env
 ## Que faire si j'ai une erreur ?
 
 Si vous avez une erreur __lisait bien le message d'erreur__ et **chercher sur internet** la solution si vous ne l'avez pas trouvé  
-et si vous remarquez une erreur dans le code fournis vous pouvez me le dire en me contactant sur discord Azer_X2#8235  
+et si vous remarquez une erreur dans le code fournis vous pouvez me le dire en me contactant sur discord Azer_X2#8235  /azer_x2
 
 ### License
 
